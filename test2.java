@@ -44,7 +44,7 @@ public class test2 {
     }
 
     public static void main(final String[] args) {
-        final ListFromFile list = new ListFromFile<>();
+        final ListFromFile<ObjectWithID> list = new ListFromFile<>();
 
         list.add(new Teacher(1));
         list.add(new Teacher(2));
