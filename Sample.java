@@ -5,18 +5,9 @@ public Sample(){}
 
 public static void main(String []args){
 
-switch(1){
-case 1: System.out.println("Hello\n");
-break;
-case 2: System.out.println("World\n");
-break;
-case 3: System.out.println("Hi");
-break;
-default:
-System.out.println("YY");
-
+for(int i=0, j=0, k=0;i<1&&j<=9;i++,j++,k++){
+System.out.println("Hello World");
 }
-
 
 }
 
