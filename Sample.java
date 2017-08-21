@@ -1,7 +1,9 @@
-public class Sample{
 
-public static void main(String[] args){
-	int[] a={1,2};
+
+public class Sample {
+    @interface Exp {
+        int[] a() default {
+                1, 2};}
+public static void main(String[] args) {
 }
-
 }
