@@ -6,7 +6,7 @@ public class Sample {
                 1, 2};}
 public static void main(String[] args) {
 if(true){
-System.out.println(""); 
+//System.out.println(""); 
 }
 }
 }
